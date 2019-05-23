@@ -1,0 +1,39 @@
+{
+  "name": "chrome-active-tab",
+  "version": "0.0.1",
+  "description": "Get metadata about active tab in Chrome",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "swift build --configuration=release && mv .build/release/chrome-active-tab main",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "repository": "yoihito/active-chrome-tab",
+  "author": {
+    "name": "Vadim Gribanov",
+    "email": "gribanovvadime@gmail.com",
+    "url": "vadimgribanov.com"
+	},
+	"files": [
+		"index.js",
+		"lib",
+		"main"
+	],
+  "keywords": [
+		"macos",
+		"mac",
+		"tab",
+		"chome",
+		"application",
+		"window",
+		"active",
+		"focused",
+		"current",
+		"title",
+		"url",
+		"metadata"
+	]
+}
