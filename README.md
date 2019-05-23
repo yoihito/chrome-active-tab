@@ -21,9 +21,10 @@ const chromeActiveTab = require('chrome-active-tab');
 	console.log(await chromeActiveTab());
 	/*
 	{
-		title: 'Github - Chrome Active Tab',
-		url: 'https://github.com'
-	}
+    title: 'chrome-active-tab - npm',
+    url: 'https://www.npmjs.com/package/chrome-active-tab',
+    platform: 'macos'
+  }
 	*/
 })();
 ```
@@ -44,6 +45,7 @@ Returns an `Object` with the result, or `undefined` if there is no active tab.
 
 - `title` *(string)* - Tab title
 - `url` *(string)* - Tab url
+- `platform` *(string)* - Platform
 
 ## OS support
 
