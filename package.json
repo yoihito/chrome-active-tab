@@ -1,6 +1,6 @@
 {
   "name": "chrome-active-tab",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get metadata about active tab in Chrome",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
     "prepublishOnly": "npm run build"
   },
   "license": "MIT",
-  "repository": "yoihito/active-chrome-tab",
+  "repository": "yoihito/chrome-active-tab",
   "author": {
     "name": "Vadim Gribanov",
     "email": "gribanovvadime@gmail.com",
