@@ -10,7 +10,7 @@ let chromeWindows = chromeApplication.windows!() // get the windows from applica
 for window in chromeWindows
 {
     let chromeWindow: ChromeWindow = window as! ChromeWindow
-    if (chromeWindow.visible!) {
+    if (chromeWindow.visible! && chromeWindow.mode! == "normal" ) {
         let chromeTab = chromeWindow.activeTab! // get the tabs from windows
         let dict: [String: Any] = [
             "title": chromeTab.title!,
