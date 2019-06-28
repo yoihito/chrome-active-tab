@@ -1,5 +1,4 @@
-# chrome-active-tab [![Build Status](https://travis-ci.org/sindresorhus/active-win.svg?branch=master)](https://travis-ci.org/sindresorhus/active-win)
-
+# chrome-active-tab  [![License](https://img.shields.io/npm/l/chrome-active-tab.svg)](https://github.com/yoihito/chrome-active-tab/blob/master/LICENSE)
 Get metadata about the active tab in Chrome(title, url).
 
 Works on macOS.

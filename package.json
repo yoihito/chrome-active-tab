@@ -1,6 +1,6 @@
 {
   "name": "chrome-active-tab",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get metadata about active tab in Chrome",
   "main": "index.js",
   "directories": {
